@@ -56,7 +56,7 @@ const Users = () => {
     <div>
       <AppBar className={classes.appBar}>
         <Toolbar>
-          <Typography className={classes.header}> Infosys</Typography>
+          <Typography className={classes.header}>Infosys</Typography>
           <Button className={classes.getUsers} onClick={() => getUsers()}>
             Get Users
           </Button>
